@@ -49,7 +49,7 @@ class Student
     sql = <<-SQL
       SELECT *
       FROM students
-      WHERE grade = 11
+      WHERE grade = 12
       ORDER BY grade DESC 
       LIMIT 1 
     SQL
