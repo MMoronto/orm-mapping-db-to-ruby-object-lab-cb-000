@@ -49,6 +49,8 @@ class Student
     sql = <<-SQL
       SELECT *
       FROM students
+      ORDER BY grade DESC 
+      LIMIT 1 
       WHERE grade = 11
     SQL
     
